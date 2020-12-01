@@ -7,13 +7,13 @@ Created on Wed Oct 21 19:08:43 2020
 """
 
 import mysql.connector
-#import getpass
+import getpass
 
-#psw = getpass.getpass()
+psw = getpass.getpass()
 
         ###  JUST CHOOSE YOUR DATABASE ### 
 
-cnx = mysql.connector.connect(user='root', password='Ci860226!', 
+cnx = mysql.connector.connect(user='root', password=psw, 
                               host='localhost', database='ironhack', use_pure=True) 
 
 
