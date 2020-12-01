@@ -31,7 +31,7 @@ from sqlalchemy import create_engine
 
 engine = create_engine("mysql+pymysql://{user}:{pw}@localhost/{db}"
                        .format(user="root",
-                               pw="Ci860226!",
+                               pw="xxxx",
                                db="Ironhack"))
 
 
